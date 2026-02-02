@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with TravelGuide - we'd love to hear from you">
+    <title>Contact Us - TravelGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>✈️ TravelGuide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Share your feedback, questions, or travel stories with us.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="contact-content">
+            <div class="contact-intro">
+                <h3>Get in Touch</h3>
+                <p>Have a question about a destination? Want to suggest a new location for us to feature? Or simply want to share your travel experiences? We're here to listen! Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="your.email@example.com"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            placeholder="What is your message about?"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="6" 
+                            placeholder="Tell us what's on your mind..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <div id="formMessage" class="form-message"></div>
+            </div>
+
+            <div class="contact-info">
+                <h3>Other Ways to Reach Us</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4>📧 Email</h4>
+                        <p>info@travelguide.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>🕐 Response Time</h4>
+                        <p>We typically respond within 24-48 hours</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>🌐 Social Media</h4>
+                        <p>Follow us for daily travel inspiration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TravelGuide. All rights reserved. | Inspiring your next adventure</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
